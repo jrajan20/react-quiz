@@ -19,9 +19,11 @@ const initialState={
   answer: null,
   points: 0,
   highscore: 0,
-  secondsRemaining: 200,
+  secondsRemaining: null,
 
 };
+
+const secsPerQuestion = 30;
 
 function reducer(state,action){
 
@@ -41,6 +43,7 @@ function reducer(state,action){
             action.payload === question.correctOption
               ? state.points + question.points
               : state.points,
+          secondsRemaining:  state.questions.length * secsPerQuestion,
         };
         case "nextQuestion":
         return { ...state, index: state.index + 1, answer: null };
