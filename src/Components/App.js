@@ -33,7 +33,9 @@ function reducer(state,action){
         case "dataFailed":
           return {...state, status: "error"};
         case "start":
-          return {...state, status: "active"};
+          return {...state, status: "active",
+                      secondsRemaining:  state.questions.length * secsPerQuestion,
+          };
           case "newAnswer":
         const question = state.questions.at(state.index);
         return {
@@ -43,7 +45,7 @@ function reducer(state,action){
             action.payload === question.correctOption
               ? state.points + question.points
               : state.points,
-          secondsRemaining:  state.questions.length * secsPerQuestion,
+
         };
         case "nextQuestion":
         return { ...state, index: state.index + 1, answer: null };
