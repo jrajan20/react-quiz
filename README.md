@@ -4,13 +4,23 @@ An interactive quiz app that tests your React knowledge across 15 questions, wit
 
 ## Screenshots
 
-| Start Screen                                    | Question                                     |
-| ----------------------------------------------- | -------------------------------------------- |
-| ![Start Screen](./screenshots/start-screen.png) | ![Question](./screenshots/quiz-question.png) |
 
-| Answered                                     | Finish Screen                                     |
-| -------------------------------------------- | ------------------------------------------------- |
-| ![Answered](./screenshots/quiz-answered.png) | ![Finish Screen](./screenshots/finish-screen.png) |
+### Start Screen
+
+<img width="786" height="548" alt="Screenshot From 2026-07-07 07-50-53" src="https://github.com/user-attachments/assets/431cb4af-a3b0-44c6-8dbf-b90299bdc239" />
+
+### Question
+
+<img width="775" height="654" alt="Screenshot From 2026-07-07 07-51-07" src="https://github.com/user-attachments/assets/831438d3-e70a-4343-8152-ae262805c7d6" />
+
+### Answered  
+
+<img width="775" height="654" alt="Screenshot From 2026-07-07 07-51-22" src="https://github.com/user-attachments/assets/3aa29378-8f6b-4393-a12f-7b5976629ba3" />
+
+### Finish Screen                                     
+
+<img width="751" height="564" alt="Screenshot From 2026-07-07 07-52-33" src="https://github.com/user-attachments/assets/0ccca38f-52ab-4108-a05a-2a1cb83c20d5" />
+
 
 ## Features
 
